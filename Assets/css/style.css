@@ -1,0 +1,126 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+/* odd fixes*/
+
+
+
+.heading{
+    display: block;
+    margin: auto;
+    color: #800000;
+}
+
+
+/* colour cicle indicators*/
+
+.circle-green{
+    display: block;
+    margin: auto;
+    width: 130px;
+     padding: 10px 3px 0 3px;
+	height: 130px;
+	background: rgba(31, 191, 28, 0.5);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+		text-align: center;
+	margin-top: 30px;
+}
+
+.circle-red{
+    display: block;
+    margin: auto;
+    width: 130px;
+    padding: 10px 3px 0 3px;
+	height: 130px;
+	background: rgba(219, 8, 8, 0.4);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.circle-orange{
+    display: block;
+    margin: auto;
+    width: 130px;
+	height: 130px;
+	 padding: 10px 3px 0 3px;
+	background: rgba(209, 128, 16,1);
+	-moz-border-radius: 100px;
+	
+	-webkit-border-radius: 100px;
+		text-align: center;
+	border-radius: 100px;
+	
+	margin-top: 30px;
+}
+
+/* Used to make the numbers bigger on the cicles*/
+
+.highlight{
+    font-size: 30px;
+}
+
+/* only displayed on smaller screens as many of the charts are hidden*/
+.higher-res-para{
+    display: block;
+   margin:auto;
+   margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #800000;
+}
+
+/* chart holder styling*/
+
+.chart-holder{
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+ 
+    min-height: 600px;
+}
+
+.chart-holder h3{
+text-align: center;
+  position: relative;
+color: #800000;
+text-decoration: underline;
+
+}
+
+.chart{
+    width:80%;
+    
+    padding: 15px;
+}
+
+.fastyle{
+    clear: both;
+    display: inline-block;
+   margin-top: 10px;
+    margin-left: 10px;
+    color: rgba(128,0,0,0.7);
+}
+
+.chart-holder h4{
+    display: block;
+    margin-left: 10px;
+text-align: left;
+position: inherit;
+font-style: italic;
+color: rgba(128,0,0,0.7);
+}
+
+.chart-holder p{
+    margin-left: 10px;
+    text-align: justify;
+}
+
+
